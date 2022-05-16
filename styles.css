@@ -1,0 +1,128 @@
+body {
+    background: rgb(238, 243, 240);
+}
+
+p {
+    margin:0
+}
+
+a {
+    color: rgb(40, 38, 68);
+    text-decoration: none;
+  }
+  
+a:hover {
+text-decoration: underline;
+color: rgb(11, 11, 11);
+
+}
+
+a:active {
+color: blue;
+}
+
+a:visited {
+color: grey;
+}
+
+.head {
+    position: relative;
+}
+
+.head h1 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.head img {
+    height: 100px;
+    width: 1080px;
+    border-radius: 10px;
+}
+
+.container {
+    position: relative;
+    max-width: 750px;
+    margin:auto;
+    background: rgb(226, 239, 42);
+}
+
+.menu, .content {
+    float: left;
+    /* margin-left: auto; */
+    box-sizing: border-box;
+    
+    margin:1%;
+    border-radius: 10px;
+}
+
+.menu {
+    position: relative;
+    background: rgb(96, 203, 213);
+    width: 28%;
+    padding: 15px 15px 15px 15px;
+}
+
+.menu h1 {
+    font-size: small;
+    margin-top: 0;
+}
+
+.menu li {
+    font-size: medium;
+}
+
+.menu a {
+    color:black
+}
+
+.content {
+    background: rgb(242, 239, 242);
+    width: 68%;
+}
+
+
+
+.contact, .operator {
+    box-sizing: border-box;
+    float: left;
+    padding: 15px 15px 15px 15px;
+    margin:1%;
+    border-radius: 10px;
+    margin:0;
+    
+
+}
+
+.contact {
+    background: rgb(141, 193, 130);
+    position:sticky;
+    width: 46%;
+    
+
+
+}
+
+.operator {
+    background: rgb(164, 183, 239);
+    position:sticky;
+    width: 53%;
+    float: right;
+
+}
+
+
+  
+
+.news {
+    /* position: relative; */
+    background: rgb(99, 182, 86);
+    box-sizing: border-box;
+    float: left;
+    padding: 15px 15px 15px 15px;
+    margin: 1% 0 0 0 ;
+    border-radius: 10px;
+}
+
