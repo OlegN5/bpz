@@ -27,19 +27,27 @@ color: grey;
 
 .head {
     position: relative;
+    max-width: 750px;
+    margin:auto;
 }
 
 .head h1 {
     position: absolute;
     top: 50%;
-    left: 20%;
+    left: 25%;
     transform: translate(-50%, -50%);
 }
 
 .head img {
+
     height: 100px;
-    width: 1080px;
+    min-width: 750px;
+    /* min-width: 375px;
+    margin-left: 50%; */
     border-radius: 10px;
+    opacity: 45%;
+
+  
 }
 
 .container {
